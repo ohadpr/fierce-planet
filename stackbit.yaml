@@ -41,12 +41,12 @@ models:
     match:
       - index.md
     fields:
-      - type: boolean
-        name: headless
-        label: Headless
       - type: string
         name: title
         label: Title
+      - type: boolean
+        name: headless
+        label: Headless
       - type: list
         name: resources
         label: Resources
