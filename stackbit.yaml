@@ -8,15 +8,19 @@ models:
     type: page
     label: Feature
     folder: sections/features
-    match: '*'
+    match:
+      - '*'
     fields:
       - name: title
         type: string
+        label: Title
       - name: weight
         type: number
         subtype: int
+        label: Weight
       - name: icon
         type: image
+        label: Icon
   section:
     type: page
     label: Section
@@ -62,6 +66,7 @@ models:
     fields:
       - name: title
         type: string
+        label: Title
       - name: description
         type: string
         label: Description
@@ -78,5 +83,7 @@ models:
     fields:
       - name: name
         type: string
+        label: Name
       - name: src
         type: string
+        label: Src
