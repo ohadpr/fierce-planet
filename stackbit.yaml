@@ -11,13 +11,13 @@ models:
     match:
       - '*'
     fields:
+      - name: title
+        type: string
+        label: Title
       - name: weight
         type: number
         subtype: int
         label: Weight
-      - name: title
-        type: string
-        label: Title
       - name: icon
         type: image
         label: Icon
